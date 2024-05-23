@@ -1,0 +1,2 @@
+setMode:
+    bx lr
