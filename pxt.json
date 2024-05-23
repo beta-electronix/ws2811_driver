@@ -2,13 +2,13 @@
     "name": "WS2811_driver",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "sendData.asm",
+        "sendMode.asm"
     ],
     "testFiles": [
         "test.ts"
