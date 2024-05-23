@@ -1,24 +1,32 @@
 {
-    "name": "WS2811_driver",
-    "description": "",
+    "name": "pxt-beta-electronix-ws2811",
+    "version": "1.0.0",
+    "description": "A WS2811 DRIVER",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
+        "main.ts",
         "sendData.asm",
         "sendMode.asm"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "targetVersions": {
-        "target": "6.0.28",
-        "targetId": "microbit"
-    },
+    "public": true,
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
 }
